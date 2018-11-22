@@ -10,6 +10,9 @@
 		574DC46921A649F900B9BE4A /* BicicletasTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574DC46821A649F900B9BE4A /* BicicletasTabBar.swift */; };
 		574DC46B21A65F3800B9BE4A /* VerBicicleta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574DC46A21A65F3800B9BE4A /* VerBicicleta.swift */; };
 		574DC46D21A67AA300B9BE4A /* PerfilUsuarioTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574DC46C21A67AA300B9BE4A /* PerfilUsuarioTabBar.swift */; };
+		574DC46F21A67FFA00B9BE4A /* profile_image_not_found.png in Resources */ = {isa = PBXBuildFile; fileRef = 574DC46E21A67FFA00B9BE4A /* profile_image_not_found.png */; };
+		574DC47121A6872200B9BE4A /* PerfilDASUTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574DC47021A6872200B9BE4A /* PerfilDASUTabBar.swift */; };
+		574DC47321A687EA00B9BE4A /* cabi_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 574DC47221A687E900B9BE4A /* cabi_login.png */; };
 		579B3465218822FB007E8C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579B3464218822FB007E8C30 /* AppDelegate.swift */; };
 		579B3467218822FB007E8C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579B3466218822FB007E8C30 /* ViewController.swift */; };
 		579B346A218822FB007E8C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579B3468218822FB007E8C30 /* Main.storyboard */; };
@@ -28,6 +31,9 @@
 		574DC46821A649F900B9BE4A /* BicicletasTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicicletasTabBar.swift; sourceTree = "<group>"; };
 		574DC46A21A65F3800B9BE4A /* VerBicicleta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerBicicleta.swift; sourceTree = "<group>"; };
 		574DC46C21A67AA300B9BE4A /* PerfilUsuarioTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilUsuarioTabBar.swift; sourceTree = "<group>"; };
+		574DC46E21A67FFA00B9BE4A /* profile_image_not_found.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_image_not_found.png; sourceTree = "<group>"; };
+		574DC47021A6872200B9BE4A /* PerfilDASUTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilDASUTabBar.swift; sourceTree = "<group>"; };
+		574DC47221A687E900B9BE4A /* cabi_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cabi_login.png; sourceTree = "<group>"; };
 		579B3461218822FB007E8C30 /* CABI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CABI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		579B3464218822FB007E8C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		579B3466218822FB007E8C30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,16 +93,19 @@
 		579B3463218822FB007E8C30 /* CABI */ = {
 			isa = PBXGroup;
 			children = (
+				579B3468218822FB007E8C30 /* Main.storyboard */,
 				574DC46A21A65F3800B9BE4A /* VerBicicleta.swift */,
 				579B3464218822FB007E8C30 /* AppDelegate.swift */,
 				579B3466218822FB007E8C30 /* ViewController.swift */,
-				579B3468218822FB007E8C30 /* Main.storyboard */,
+				574DC47021A6872200B9BE4A /* PerfilDASUTabBar.swift */,
 				574DC46C21A67AA300B9BE4A /* PerfilUsuarioTabBar.swift */,
 				574DC46821A649F900B9BE4A /* BicicletasTabBar.swift */,
 				579B346E218822FD007E8C30 /* Assets.xcassets */,
 				579B3470218822FD007E8C30 /* LaunchScreen.storyboard */,
 				579B347921882348007E8C30 /* GoogleService-Info.plist */,
+				574DC47221A687E900B9BE4A /* cabi_login.png */,
 				579B347B218828A5007E8C30 /* baseline_crop_free_black_24dp.png */,
+				574DC46E21A67FFA00B9BE4A /* profile_image_not_found.png */,
 				579B347D218828BF007E8C30 /* baseline_compare_arrows_black_24dp.png */,
 				579B3481218828D8007E8C30 /* baseline_person_black_24dp.png */,
 				579B347F218828CC007E8C30 /* baseline_directions_bike_black_24dp.png */,
@@ -176,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574DC47321A687EA00B9BE4A /* cabi_login.png in Resources */,
 				579B3472218822FD007E8C30 /* LaunchScreen.storyboard in Resources */,
 				579B3480218828CC007E8C30 /* baseline_directions_bike_black_24dp.png in Resources */,
 				579B346F218822FD007E8C30 /* Assets.xcassets in Resources */,
@@ -183,6 +193,7 @@
 				579B347A21882348007E8C30 /* GoogleService-Info.plist in Resources */,
 				579B346A218822FB007E8C30 /* Main.storyboard in Resources */,
 				579B347C218828A5007E8C30 /* baseline_crop_free_black_24dp.png in Resources */,
+				574DC46F21A67FFA00B9BE4A /* profile_image_not_found.png in Resources */,
 				579B3482218828D8007E8C30 /* baseline_person_black_24dp.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574DC47121A6872200B9BE4A /* PerfilDASUTabBar.swift in Sources */,
 				574DC46921A649F900B9BE4A /* BicicletasTabBar.swift in Sources */,
 				574DC46B21A65F3800B9BE4A /* VerBicicleta.swift in Sources */,
 				574DC46D21A67AA300B9BE4A /* PerfilUsuarioTabBar.swift in Sources */,
