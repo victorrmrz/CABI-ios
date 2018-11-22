@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		574DC46921A649F900B9BE4A /* BicicletasTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574DC46821A649F900B9BE4A /* BicicletasTabBar.swift */; };
+		574DC46B21A65F3800B9BE4A /* VerBicicleta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574DC46A21A65F3800B9BE4A /* VerBicicleta.swift */; };
+		574DC46D21A67AA300B9BE4A /* PerfilUsuarioTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574DC46C21A67AA300B9BE4A /* PerfilUsuarioTabBar.swift */; };
 		579B3465218822FB007E8C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579B3464218822FB007E8C30 /* AppDelegate.swift */; };
 		579B3467218822FB007E8C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579B3466218822FB007E8C30 /* ViewController.swift */; };
 		579B346A218822FB007E8C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579B3468218822FB007E8C30 /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		574DC46821A649F900B9BE4A /* BicicletasTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicicletasTabBar.swift; sourceTree = "<group>"; };
+		574DC46A21A65F3800B9BE4A /* VerBicicleta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerBicicleta.swift; sourceTree = "<group>"; };
+		574DC46C21A67AA300B9BE4A /* PerfilUsuarioTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilUsuarioTabBar.swift; sourceTree = "<group>"; };
 		579B3461218822FB007E8C30 /* CABI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CABI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		579B3464218822FB007E8C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		579B3466218822FB007E8C30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,9 +87,12 @@
 		579B3463218822FB007E8C30 /* CABI */ = {
 			isa = PBXGroup;
 			children = (
+				574DC46A21A65F3800B9BE4A /* VerBicicleta.swift */,
 				579B3464218822FB007E8C30 /* AppDelegate.swift */,
 				579B3466218822FB007E8C30 /* ViewController.swift */,
 				579B3468218822FB007E8C30 /* Main.storyboard */,
+				574DC46C21A67AA300B9BE4A /* PerfilUsuarioTabBar.swift */,
+				574DC46821A649F900B9BE4A /* BicicletasTabBar.swift */,
 				579B346E218822FD007E8C30 /* Assets.xcassets */,
 				579B3470218822FD007E8C30 /* LaunchScreen.storyboard */,
 				579B347921882348007E8C30 /* GoogleService-Info.plist */,
@@ -245,6 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574DC46921A649F900B9BE4A /* BicicletasTabBar.swift in Sources */,
+				574DC46B21A65F3800B9BE4A /* VerBicicleta.swift in Sources */,
+				574DC46D21A67AA300B9BE4A /* PerfilUsuarioTabBar.swift in Sources */,
 				579B3467218822FB007E8C30 /* ViewController.swift in Sources */,
 				579B346D218822FB007E8C30 /* CABI.xcdatamodeld in Sources */,
 				579B3465218822FB007E8C30 /* AppDelegate.swift in Sources */,
